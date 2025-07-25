@@ -1,41 +1,18 @@
+# Maven build directory
+target/
+
 # Compiled class files
 *.class
 
 # Log files
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files
+# Package files
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs
-hs_err_pid*
-replay_pid*
-
-# Maven
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
-
-# VS Code
+# VS Code (allow specific config files)
 .vscode/
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -44,49 +21,14 @@ buildNumber.properties
 
 # IntelliJ IDEA
 .idea/
-*.iws
 *.iml
-*.ipr
 
 # Eclipse
 .project
 .classpath
-.c9/
-*.launch
 .settings/
-.metadata
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.loadpath
-.recommenders
 
-# NetBeans
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-# OS generated files
+# OS files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
-
-# Windows
 Desktop.ini
-$RECYCLE.BIN/
-
-# JavaFX specific
-*.fxbuild

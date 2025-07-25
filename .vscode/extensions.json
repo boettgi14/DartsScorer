@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "shrey150.javafx-support",
+        "sosuisha.fxml-language-mode",
+        "bilalekrem.scenebuilderextension",
+        "sosuisha.javafx-controller-support",
+        "vscjava.vscode-java-pack"
+    ]
+}
