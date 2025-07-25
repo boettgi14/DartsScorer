@@ -80,25 +80,6 @@ Then run either:
    - View real-time statistics including averages and throws remaining
    - Abort current games and start new ones as needed
 
-## Project Structure
-
-```
-DartsScorer/
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── io/github/boettgi14/
-│       │       ├── Main.java              # Application entry point
-│       │       ├── DartsScorer.java       # Core game logic
-│       │       └── DartsScorerController.java # UI controller
-│       └── resources/
-│           └── io/github/boettgi14/
-│               ├── DartsScorerFXML.fxml   # UI layout
-│               └── icon.png               # Application icon
-├── pom.xml                                # Maven configuration
-└── DartsScorer.bat                       # Windows batch file
-```
-
 ## Technologies Used
 
 - **Java 11**: Core programming language
